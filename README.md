@@ -8,7 +8,7 @@ This repository contains an R package for doing Parts of Speech tagging and Lemm
 
 ### Installation
 
-- For installing the package: `remotes::install_github("DIGIT-VUB/udpipe.bab", build_vignettes = TRUE)`
+- For installing the package: `remotes::install_github("DIGI-VUB/udpipe.bab", build_vignettes = TRUE)`
 
 Look to the vignette and the documentation of the functions
 
