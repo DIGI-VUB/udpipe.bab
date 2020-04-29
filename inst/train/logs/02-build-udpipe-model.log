@@ -1,0 +1,67 @@
+Warning message:
+package 'udpipe' was built under R version 3.5.3 
+$wd
+[1] "C:/Users/Jan/Dropbox/Work/2020/VUB/projects/udpipe-bab"
+
+$date
+[1] "2020-04-28"
+
+$language
+[1] "dutch"
+
+$treebank
+[1] "bab"
+
+$modelname
+[1] "dutch-bab-20200428.udpipe"
+
+$modeloutput
+[1] "C:/Users/Jan/Dropbox/Work/2020/VUB/projects/udpipe-bab/models/dutch-bab-20200428.udpipe"
+
+[1] "2020-04-28 22:39:04 CEST"
+Tagger model 1 columns: lemma use=0/provide=0, xpostag use=1/provide=1, feats use=1/provide=0
+Creating morphological dictionary for tagger model 1.
+Tagger model 1 dictionary options: max_form_analyses=0, custom dictionary_file=none
+Tagger model 1 guesser options: suffix_rules=8, prefixes_max=0, prefix_min_count=10, enrich_dictionary=6
+Tagger model 1 options: iterations=6, early_stopping=1, templates=tagger
+Training tagger model 1.
+Iteration 1: done, accuracy 75.94%, heldout accuracy 83.54%t/97.54%l/81.88%b
+Iteration 2: done, accuracy 85.86%, heldout accuracy 86.81%t/97.92%l/85.25%b
+Iteration 3: done, accuracy 88.20%, heldout accuracy 87.97%t/98.04%l/86.48%b
+Iteration 4: done, accuracy 89.90%, heldout accuracy 88.64%t/98.13%l/87.17%b
+Iteration 5: done, accuracy 91.21%, heldout accuracy 89.14%t/98.17%l/87.70%b
+Iteration 6: done, accuracy 91.80%, heldout accuracy 89.46%t/98.20%l/88.06%b
+Chosen tagger model from iteration 6
+Tagger model 2 columns: lemma use=1/provide=1, xpostag use=0/provide=0, feats use=0/provide=0
+Creating morphological dictionary for tagger model 2.
+Tagger model 2 dictionary options: max_form_analyses=0, custom dictionary_file=none
+Tagger model 2 guesser options: suffix_rules=6, prefixes_max=4, prefix_min_count=10, enrich_dictionary=4
+Tagger model 2 options: iterations=6, early_stopping=1, templates=lemmatizer
+Training tagger model 2.
+Iteration 1: done, accuracy 74.82%, heldout accuracy 87.03%t/80.02%l/77.57%b
+Iteration 2: done, accuracy 85.11%, heldout accuracy 88.31%t/81.29%l/79.12%b
+Iteration 3: done, accuracy 89.49%, heldout accuracy 89.07%t/81.91%l/79.87%b
+Iteration 4: done, accuracy 91.71%, heldout accuracy 89.43%t/82.20%l/80.24%b
+Iteration 5: done, accuracy 93.19%, heldout accuracy 89.62%t/82.39%l/80.45%b
+Iteration 6: done, accuracy 95.26%, heldout accuracy 89.84%t/82.53%l/80.63%b
+Chosen tagger model from iteration 6
+[1] "2020-04-29 10:19:59 CEST"
+$file_model
+[1] "C:/Users/Jan/Dropbox/Work/2020/VUB/projects/udpipe-bab/models/dutch-bab-20200428.udpipe"
+
+$annotation_tokenizer
+[1] "none"
+
+$annotation_tagger
+[1] "models=2;templates_1=tagger;iterations_1=6;guesser_suffix_rules_1=8;guesser_enrich_dictionary_1=6;guesser_prefixes_max_1=0;use_lemma_1=0;use_xpostag_1=1;use_feats_1=1;provide_lemma_1=0;provide_xpostag_1=1;provide_feats_1=0;prune_features_1=0;templates_2=lemmatizer;iterations_2=6;guesser_suffix_rules_2=6;guesser_enrich_dictionary_2=4;guesser_prefixes_max_2=4;use_lemma_2=1;use_xpostag_2=0;use_feats_2=0;provide_lemma_2=1;provide_xpostag_2=0;provide_feats_2=0;prune_features_2=0"
+
+$annotation_parser
+[1] "none"
+
+$errors
+[1] ""
+
+$class
+[1] "udpipe_trained_model"
+
+Tagging from gold tokenization - forms: 69156, upostag: 89.56%, xpostag: 89.29%, feats: 100.00%, alltags: 89.29%, lemmas: 82.45%

@@ -1,0 +1,18 @@
+Package: udpipe.bab
+Type: Package
+Title: UDPipe Models Built on Brieven als Buit
+Version: 0.1.0
+Authors@R: c(
+    person('Jan', 'Wijffels', role = c('aut', 'cre', 'cph'), email = 'jan.wijffels@vub.be'), 
+    person('Vrije Universiteit Brussel - DIGI: Brussels Platform for Digital Humanities', role = 'cph'))
+Maintainer: Jan Wijffels <jan.wijffels@vub.be>
+Description: Perform Parts of Speech Tagging and Lemmatisation on 18th and 19th century Dutch texts. Based on a UDPipe model trained on the Brieven als Buit corpus.
+License: file LICENSE
+Encoding: UTF-8
+Imports:
+    udpipe
+Suggests:
+    knitr
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
+
