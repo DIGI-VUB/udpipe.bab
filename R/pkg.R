@@ -7,6 +7,7 @@ nlp <- new.env()
 .onLoad <- function(libname, pkgname) {
     path <- system.file(package = "udpipe.bab", "models", "dutch-bab.udpipe")
     path <- system.file(package = "udpipe.bab", "models", "dutch-bab-20200428.udpipe")
+    path <- system.file(package = "udpipe.bab", "models", "dutch-bab-20200429.udpipe")
     nlp$model <- udpipe::udpipe_load_model(path)
 }
 
